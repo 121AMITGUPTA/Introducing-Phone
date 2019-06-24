@@ -1,0 +1,128 @@
+body{margin: 0;}
+.header{
+	width: 100%;
+	height: auto;
+	background-color: lightgray;
+	display: grid;
+}
+.h1{
+	display: inline-block;
+}
+
+.nav{
+	float: right;
+	}
+
+.nav ul{
+		list-style: none;
+}
+
+.nav li{
+	padding: 10px;
+	text-align: center;
+	margin: 2px;
+	display: inline-block;
+	background-color: white;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+.banner{
+	padding: 0 100px;
+    background: #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+	}
+
+.input-from{
+	text-align: center;
+	width: 50%;
+}
+.input-form h1{
+	font-weight: 600;
+	font-size: 40px;
+	display: block;
+	}
+.input{
+	padding: 5px;
+	width: 300px;
+}
+.submit{
+	padding: 5px;
+	border: none;
+	outline: none;
+}
+.submit:hover{
+	color: white;
+	background-color: black;
+}
+.features{
+	padding: 100px;
+	color: white;
+	text-align: center;
+	background-color: gray;
+}
+.features ul{
+	display: block;
+}
+.features li{
+	list-style: none;
+}
+.fa{
+	display: inline-block;
+}
+
+.products{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 100px;
+    background: #eeeeee;
+}
+
+.card{
+	text-align: center;
+    padding: 20px 10px;
+    background: #ddd;
+    box-shadow: #ccc 1px 2px 2px;
+}
+.footer{
+	padding: 70px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+}
+.about-us{
+	width: 50%;
+	color: white;
+	font-weight: bold;
+}
+
+.madeby{
+	align-self: flex-end;
+}
+.madeby p{
+		color: white;
+		height: 40px;	
+		font-weight: bold;
+}
+.madeby ul{
+		list-style: none;
+		float: right;
+}
+.madeby li{
+	display: inline-block;
+	color: white;
+	margin-right: 2em;
+	}
+.madeby a{
+	float: right;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
